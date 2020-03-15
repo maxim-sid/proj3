@@ -1,0 +1,87 @@
+body{
+    background-color: #87DCC6;
+    display: flex;
+    justify-content: center;
+}
+.userCardContainer{
+    width: 320px;
+    background-color: #ffffffff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.userCardHeader{
+    height: 160px;
+    background-image: url("./../pictures/pic1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.userCardInfoContainer{
+
+}
+
+.userCardInfoContainer > *{
+    margin: 0 auto;
+}
+
+.userAvatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-color: gold;
+    overflow: hidden;
+    margin-top: -60px;
+}
+
+.userAvatar > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.userCardInfoContainer > h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #000000;
+    padding: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+.userCardInfoContainer > h5{
+    text-align: center;
+    margin-top: 5px;
+    color: #1f1f1f;
+    padding: inherit;
+    font-family: 'Cardo', serif;
+}
+.userCardInfoContainer > h6{
+    text-align: center;
+    margin-top: 5px;
+    color: #202020;
+    padding: inherit;
+    font-family: 'Cardo', serif;
+}
+
+.iconContainer{
+    margin-top: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.verticalAlign + .verticalAlign{
+    margin-left: 20px;
+}
+
+.iconContainer > img{
+
+}
+
+.verticalAlign{
+    display: inline-block;
+    vertical-align: center;
+    height: 100%;
+}
+
